@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  /* Paleta de colores del Diplomado de IA en Salud */
+  --primary-dark-purple: #3f2e7a;
+  --primary-medium-purple: #5a489b;
+  --primary-light-purple: #673ab7;
+  --background-dark-blue: #2c205e;
+  --accent-teal: #00bfa5;
+  --accent-green: #00c853;
+  --accent-light-blue: #4dd0e1;
+  --text-white: #ffffff;
+  --text-black: #000000;
+  --text-gray: #374151;
+  --background-white: #ffffff;
+}
+
+@theme inline {
+  --color-primary-dark: var(--primary-dark-purple);
+  --color-primary-medium: var(--primary-medium-purple);
+  --color-primary-light: var(--primary-light-purple);
+  --color-background-dark: var(--background-dark-blue);
+  --color-accent-teal: var(--accent-teal);
+  --color-accent-green: var(--accent-green);
+  --color-accent-light-blue: var(--accent-light-blue);
+  --color-text-white: var(--text-white);
+  --color-text-black: var(--text-black);
+  --color-text-gray: var(--text-gray);
+  --color-background-white: var(--background-white);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background-white);
+  color: var(--text-black);
+  font-family: Arial, Helvetica, sans-serif;
+}
